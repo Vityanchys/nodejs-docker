@@ -7,7 +7,7 @@ const PORT = 8080;
 const HOST = '0.0.0.0';
 
 // App
-cons app = express();
+const app = express();
 app.get('/', (req, res) => {
   res.send('Hello world\n');
 });
